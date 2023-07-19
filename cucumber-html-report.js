@@ -4,7 +4,7 @@ report.generate({
     reportPath: "./reports/cucumber-htmlreport.html",
     metadata: {
     browser: {
-        name: "electron",
+        name: "chrome",
         version: "XX",
         },
     device: "Local test machine",

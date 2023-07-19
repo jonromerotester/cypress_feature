@@ -6,7 +6,8 @@
   "scripts": {
     "test": "node_modules/.bin/cypress run",
     "open": "cypress open",
-    "cypress:runner": "cypress open --e2e --browser chrome"
+    "cypress:runner": "cypress open --e2e --browser chrome",
+    "cypress:execute": "cypress run --e2e --browser chrome"
   },
   "keywords": [
     "cypress"
