@@ -1,0 +1,27 @@
+{
+  "name": "testpages-cucumber-initial",
+  "version": "1.0.0",
+  "description": "cypress test automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/cypress run",
+    "open": "cypress open",
+    "cypress:runner": "cypress open --e2e --browser chrome"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "jon_romero10",
+  "license": "ISC",
+  "devDependencies": {
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
+    "cypress": "^12.17.0",
+    "esbuild": "^0.16.4",
+    "multiple-cucumber-html-reporter": "^3.4.0"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^18.0.1",
+    "@shelex/cypress-allure-plugin": "^2.40.0",
+    "cucumber-html-reporter": "^7.1.1"
+  }
+}
